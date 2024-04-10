@@ -1,9 +1,9 @@
 ---
-title: Integration jekyll and giscus
+title: Integrate jekyll and giscus
 layout: post
 author: cyven
-tags:
-categories:
+tags: jekyll html git github
+categories: tech
 ---
 
 
