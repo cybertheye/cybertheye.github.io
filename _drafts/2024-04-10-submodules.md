@@ -20,4 +20,8 @@ https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 > The issue with copying the code into your own project is that you may have to do the merging job manually when any custom changes encounter the available upstream changes which will be difficult.
 
+## Advantage of using git submodule
+
+Version controll. The compatible issue no longer exist. If you don't like this version, just roll back.
+
 

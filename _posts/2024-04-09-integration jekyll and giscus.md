@@ -3,11 +3,11 @@ title: Integrate jekyll and giscus
 layout: post
 author: cyven
 tags: jekyll html git github
-categories: tech
+categories: Tech
 ---
 
 
-## giscus.html
+## Giscus.html
 
 如果使用的模版里面已经整合了giscus的页面代码，只需要做一些配置，这一步可以略过
 
