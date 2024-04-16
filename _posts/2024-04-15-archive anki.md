@@ -3,7 +3,7 @@ title: update cancel & archive anki.org
 layout: post
 author: cyven
 tags: emacs elisp anki
-categories: Tech
+categories: CS CS::Lang CS::Lang::Elisp
 ---
 
 
@@ -78,5 +78,3 @@ capture到的`anki.org` org entry 会越来越多
 ```
 
 然后在anki.org文件中 执行 `M-x anki/archive-all-pushed` 就行了
-
-

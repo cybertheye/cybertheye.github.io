@@ -3,7 +3,7 @@ title: Integrate jekyll and giscus
 layout: post
 author: cyven
 tags: jekyll html git github
-categories: Tech
+categories: CS CS::Tech CS::Tech::Jekyll
 ---
 
 

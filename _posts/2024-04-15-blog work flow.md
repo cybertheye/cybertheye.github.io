@@ -2,8 +2,8 @@
 title: Blog work flow
 layout: post
 author: cyven
-tags: elisp
-categories: Tech
+tags: elisp jekyll
+categories: CS CS::Lang CS::Lang::Elisp
 ---
 
 
