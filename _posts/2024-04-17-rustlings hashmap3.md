@@ -91,7 +91,7 @@ where
 ```rust
 fn update_one_team_score(scores:& mut HashMap<String,Team> ,team_name: String, team_score: u8,opponent_score: u8){
 	/*
-	 * Update two goals in the struct extracted from scores by team_name by adding team_score and opponent_score correspondingly.
+	 * Update two goals in the struct extracted from scores by team_name by adding team_score and opponent_score respectively.
 	 *
 	 */
 
@@ -117,7 +117,7 @@ fn update_one_team_score(scores:& mut HashMap<String,Team> ,team_name: String, t
 ```rust
 fn update_one_team_score(scores:& mut HashMap<String,Team> ,team_name: String, team_score: u8,opponent_score: u8){
 	/*
-	 * Update two goals in the struct extracted from scores by team_name by adding team_score and opponent_score correspondingly.
+	 * Update two goals in the struct extracted from scores by team_name by adding team_score and opponent_score respectively.
 	 *
 	 */
 
@@ -142,7 +142,7 @@ fn update_one_team_score(scores:& mut HashMap<String,Team> ,team_name: String, t
 ```rust
 fn update_one_team_score(scores:& mut HashMap<String,Team> ,team_name: String, team_score: u8,opponent_score: u8){
 	/*
-	 * Update two goals in the struct extracted from scores by team_name by adding team_score and opponent_score correspondingly.
+	 * Update two goals in the struct extracted from scores by team_name by adding team_score and opponent_score respectively.
 	 *
 	 */
 
