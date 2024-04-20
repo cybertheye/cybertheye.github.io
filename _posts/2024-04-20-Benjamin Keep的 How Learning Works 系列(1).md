@@ -1,0 +1,192 @@
+---
+title: Benjamin Keep的 How Learning Works 系列(1)
+layout: post
+author: cyven
+tags: psychology learning-skill
+categories: Metacognition
+---
+
+
+# Table of Contents
+
+1.  [Benjamin Keep的 How Learning Works 系列(1)](#org829e7e3)
+    1.  [What no one tells you about learning faster](#orgf3610ad)
+    2.  [Forgetting doesn't work like you think](#org7921ee3)
+    3.  [What happens when you become an expert](#org026df33)
+    4.  [The Great Cornhole Experiment - Learning, Performance, and Contextual Variation](#orgc20f75d)
+    5.  [The Five Biggest Myths About Learning](#org752bfba)
+        1.  [❌M1: 左脑逻辑，右脑艺术](#org722e5c7)
+        2.  [❌M2: 你在睡觉的时候可以调动潜意识进行学习，比如睡觉听单词](#orgc953f2d)
+        3.  [❌M3: 你只开发了大脑的10%的潜能](#org2358d18)
+        4.  [❌M4: 听觉学习者，视觉学习者](#orgac4a8f5)
+        5.  [❌M5: Dale's cone theory](#org443cb2e)
+        6.  [那些Myth的共性](#org08de26f)
+
+
+
+
+# Benjamin Keep的 How Learning Works 系列(1) {#org829e7e3}
+
+这个系列视频现在总共18个视频
+<https://www.youtube.com/playlist?list=PL-coy4se2Uc7D_n3F2YDnCqQCyiwC3v7e>
+
+这里是1-5
+
+
+
+## What no one tells you about learning faster {#orgf3610ad}
+
+这个视频阐述了short term performance和long term learning的区别
+用了三个例子，一个是对着镜子跳芭蕾，一个是背单词，一个是解决数学问题
+
+1.  对着镜子跳芭蕾以及在健身房对着镜子健身会让你把注意力放在外部，而不是内在的感受
+2.  背单词，通过cram方法，也就是短期“猛吃”，其实就是重复的间隔时间很短，而不是科学的艾宾浩斯曲线
+    这样短期可能看似记住很多，但其实长期来看，和间隔30天重复，后者记住的更多
+3.  解决数学问题，比如我是学生，我有问题，我就去问， 老师给反馈，其实这样是在打断学生建立深度思考的神经链接
+
+所以这个视频其实在反对learning faster，而主张 learning efficiently
+
+
+
+
+## Forgetting doesn't work like you think {#org7921ee3}
+
+这个视频就是在阐述一个重要的观点，就是获取记忆是通过线索，就像HashMap一样
+有一个key对应一个value
+这个key就是线索，这个线索是你正在学习的周围环境，一个问题，所有你需要记住那个东西的综合体
+
+而一般如果同时在做好多事情，那么就好像 一对多的关系，一个key有好多个value
+
+这时候其实在大脑中发生的事情是记忆之间产生竞争，当一对记忆关系正在大脑中形成的时候（神经元链接）
+正在产生化学反应的过程，然后突然又来了一个，还来一个，这样其实是干预了之前的过程。
+
+所以一次只专注一件事很重要
+
+但可以多个key指向一个value，也就是建立多个线索，其实就是在建立access memory的多个cue也就是访问入口
+比如，学习氛围的变化，知识点的不同角度的提问
+
+这里还提到了，适当的酒精是可以提高短期记忆的效果的
+
+
+
+
+## What happens when you become an expert {#org026df33}
+
+这个视频介绍了专家和小白的区别，在于专家的知识结构是不一样的
+
+并以烹饪举例，他们不会根据食谱来看看要放哪些，而是会根据特定的烹饪技巧，以及和食谱成分的关系结构产生的后果来选择
+
+另外就是专家因为spend a lot of time in one domain,所以他们对于一些问题的思考已经 “自动化” 了
+所以叫不假思索做一些非常复杂的事情
+
+另外一个重要的能力就是 自我反思，自我评价表现，reflect on our own performance
+
+**所以，当不知道哪些行为是错误的的时候，去诊断自己是非常困难的**
+
+最后， what are the decisions that experts make how do they make those decisions
+我们要去关注领域专家是怎么思考并作出决策的， 可以帮助我们锻炼能力
+
+
+
+
+## The Great Cornhole Experiment - Learning, Performance, and Contextual Variation {#orgc20f75d}
+
+这个视频用一个 corn hole 运动举例来说明如何做练习
+
+corn hole是什么运动，自行搜一下，这里用篮球里面的投篮代替
+
+比方说你要练习罚篮，罚球线离篮筐距离是 5.8米
+
+ok，那么为了增加你罚球的命中率，那么平时，你在练习的时候，会选择
+
+1.  在4米的距离进行练习
+2.  就在罚球线，5.8米的距离练习
+3.  在不同的位置，进行练习,不局限于罚球线
+
+好，视频中给出的结论是， 最后效果 3 > 2 > 1
+
+这里所要阐述的一个观点是， **variation is good 我们需要把自己处身在一个变化的环境中**
+
+就比如我们练习投篮，不是练习投篮本身，而是练习如果判断距离，如果掌握求的运动轨迹，这才是真正的练习
+
+而这更底层的练习就像是一个模版，让我们可以套更多的东西.
+
+所以变化是个好东西，它迫使你思考更本质的事情
+
+
+
+
+## The Five Biggest Myths About Learning {#org752bfba}
+
+这个视频 debunk 了5个 myth
+
+T1 = Truth #1
+M1 = Myth #1
+
+
+
+
+### ❌M1: 左脑逻辑，右脑艺术 {#org722e5c7}
+
+**T1: 大脑的不同组成部分有着不同的功能，比如 prefrontal cortex前额叶皮质，跟“自律”有关，他让你能有意识的控制自己，当然还跟其他很多相关，比如emotion process,planning,memory**
+
+Brain processes doesn't happen in just one part of the brain rather it's the interaction of several parts working together that creates a lot of processes that we can think of
+
+
+
+### ❌M2: 你在睡觉的时候可以调动潜意识进行学习，比如睡觉听单词 {#orgc953f2d}
+
+**T2: 睡眠是学习很重要的一部分**
+
+但是你在睡觉的时候，大脑也很忙，他根本不在意外界发生了什么，他在帮助你“巩固”
+这里的巩固，意思是大脑正在进行新的神经元的化学物质的反应建立，是这个层面上面的。
+
+如果睡眠不好，会导致这些化学反应没有形成，那自然就学不好
+
+A better way of thinking this is you getting a good night is already helping you to learn
+
+
+
+### ❌M3: 你只开发了大脑的10%的潜能 {#org2358d18}
+
+**T3: 你学到多少，学的好不好取决于你的注意力**
+
+A better way of thinking about this is just to think about is our brain acting appropriately under the circumstances.
+Is our brain resting when it should be resting?
+Is it focused when it should be focused?
+
+
+
+### ❌M4: 听觉学习者，视觉学习者 {#orgac4a8f5}
+
+**T4: 两个人同时去听火箭科学的讲座，他们得到的是不一样的，这有很多因素，A比B数学好，B比A画画好，也就是两个人的前置知识不一样，这会导致不同的人利用这些不同的前置优势来帮助了解新的东西**
+
+不存在什么auditory learner, visual learner， kinesthetic learner
+光看别人骑车肯定不会自己骑车
+
+A better way of thinking about this is many things influence how people learn.
+Some of these have to do with the learners.
+Do they have the adequate prior knowledge to understand what's being said?
+Are they paying the attention to the right thing? etc&#x2026;
+
+
+
+### ❌M5: Dale's cone theory {#org443cb2e}
+
+**T5: what you learn depends on how that information is presented to you**
+
+一个错误的练习，可能会导致你以后付出更大的代价去纠正它
+
+Learning mode can influence how much we can learn but there is a better way of thinking about it:
+the kind of activity that's going to help you learn depends upon your learning goals and where you are in the learning process
+
+其实就是不同的阶段有不同的目标
+
+比如学骑自行车，如果你练什么是自行车都不知道，在刚开始的时候，最好的学习就是先看别人怎么骑，
+但当你有了自己的自行车之后，你再怎么看别人骑，对你帮助也不大了
+
+
+
+### 那些Myth的共性 {#org08de26f}
+
+未挖掘的潜力和轻松的学习
