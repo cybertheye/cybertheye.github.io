@@ -1,9 +1,9 @@
 ---
-title: [转载] A dream of an ultimate os
+title: 【转载】A dream of an ultimate os
 layout: post
 author: cyven
-tags:
-categories:
+tags: os linux
+categories: CS CS::Core CS::Core::OS
 ---
 
 原文： https://okmij.org/ftp/papers/DreamOSPaper.html
