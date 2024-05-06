@@ -1,0 +1,96 @@
+---
+title: Benjamin Keep的 How Learning Works 系列(2)
+layout: post
+author: cyven
+tags: psychology learning-skill
+categories: Metacognition
+---
+
+
+# Table of Contents
+
+1.  [Benjamin Keep的 How Learning Works 系列(2)](#org9e176b4)
+    1.  [Can you learn in your sleep?](#orgdc9f5c2)
+    2.  [Practice More Efficiently - Deliberate Practice & Skill Improvement](#orgb8e76ef)
+    3.  [What People Get Wrong About Deliberate Practice](#org09572f7)
+    4.  [Tests Are Magic - The Testing Effect](#org83398a8)
+    5.  [Desirable Difficulties - How Learning Works](#org0226fb1)
+
+
+
+# Benjamin Keep的 How Learning Works 系列(2) {#org9e176b4}
+
+6-10集
+
+## Can you learn in your sleep? {#orgdc9f5c2}
+
+在这个视频中，这位博士介绍了，睡觉并不能让你学习新的东西，但是可以 **consolidate memory that is already happening when you're sleeping more effective**
+
+有一个技巧是，在学新东西的时候，旁边放上一瓶香水，然后在睡觉的时候，也放上气味一摸一样的香水，这样会让大脑去巩固这些你学到的新东西
+
+因为大脑在接受信息的时候，不是单纯的接受你学的这些文字，还有周围的环境，味道，声音等等等，这些组合信息。
+
+你可能会问可以在旁边放音乐吗？ 因为气味可能是能最低程度打扰你睡眠，所以还是气味最好，主要矛盾还是睡觉上
+
+理论上睡得越多，学习效果越好
+
+
+
+## Practice More Efficiently | Deliberate Practice & Skill Improvement {#orgb8e76ef}
+
+这个视频解释了为什么有时候你觉得你练了好久，但是没有变得更好。
+
+1.  你其实是进步了，只不过进步曲线不是像你想象的那样线性进步，而是一个平滑曲线
+    每个平滑曲线后期就是一个 performance plateau, 就是一个瓶颈期。
+    这也就是有原因的，大脑需要 reorganize
+    有时候需要get worse to get better
+    所以遇到停滞不前的时候，问问自己，一方面自己的评估效果的方法是合理的吗，另一方面就是看看自己是不是处于瓶颈期
+2.  你练习了，但是没有正确的练习
+    首先，要去看看你目标的那个领域的专家都掌握了什么技能以及他们是怎么做的，了解他们的成长路径
+    然后，就是练习，需要专注在那些让你感到有点难度的挑战上
+    第三，就是自我评估，看看自己那里做对了，更重要的是那里做错了
+    第四，就是反馈。这里更多的外部的反馈
+    最后，就是重复上面的步骤
+
+
+
+## What People Get Wrong About Deliberate Practice {#org09572f7}
+
+我们知道刻意练习很重要，但是有几个误区
+
+1.  10000小时理论。重要的不是“练习的数量”而是 **练习的质量**
+2.  上来就干。在这之前，你需要知道练习什么？ **你需要识别出真正的练习是什么** ，哪些是专家技能。就比如NBA，去看看那些顶尖的超级巨星，是什么让他们区别与其他平均水平的运动员？
+3.  练习单位。人们通常练习的时候，以时间为计量单位，比如练习乐器，一天要练1个小时。但是回到1，我们要关注练习的质量，你练一个小时你会了乐谱没有什么用，
+    要去找那些能够 **挑战你的练习** ，然后最好能得到专家的反馈，然后不断的进行 Challenging Practice - Expert Feedback - Further Practice - Opportunities - Repeat 循环
+
+
+
+## Tests Are Magic|The Testing Effect {#org83398a8}
+
+首先先说结论，Test，测试，能帮助你大脑重新组织信息
+
+1.  比如你在学习一些资料，那么用测试去回顾比重新读一遍资料的效果要好
+2.  测试还能帮助你提高记住那些还没测试到的信息的效果
+3.  测试甚至还能帮助你学习你没有读过或者还没消化的资料
+
+
+
+## Desirable Difficulties - How Learning Works {#org0226fb1}
+
+这个视频介绍了Desirable Difficulties，其实就是在学习过程中没有困难也要制造困难，但是这个困难是有一定原则的，不能说我刚开始学习，我就去看一小时短视频，然后挑战自己能不能回来继续学习，这样的困难是 bad 的
+
+那什么样的是good的呢？
+
+首先视频介绍了练习，training 和 表现，performance 的区别
+
+> we should judge training methods by how well the result in higher performance not how well someone seems to be doing just during the training part of things
+
+并且应当尽可能的在练习中犯错
+
+所以我们可以制造一些 Desirable difficulties, 举了三个经典的例子
+
+1.  spacing. 比起一个下午花三个小时，不如分为3个一个小时，早上1小时，晚上1小时，明天下午1小时，虽然会导致一定程度的遗忘，但是随着时间的推移，间隔学习会让你保留更多的信息
+2.  interleaving. 交错学习，就比如把加法，乘法，除法混在一起测试，而不是一面测试全是加法，一面测试全是乘法，目的是不要让大脑习惯这个加法模式，这就是人为制造的desirable difficulties，不让大脑去预测
+3.  contextual variation. 其实上面这个interleaving用的原理也就是 contextual variation, 前面说到 [variation is good](https://cybertheye.github.io/posts/Benjamin-Keep%E7%9A%84-How-Learning-Works-%E7%B3%BB%E5%88%97(1)/#:~:text=%E6%88%91%E4%BB%AC%E9%94%BB%E7%82%BC%E8%83%BD%E5%8A%9B-,The%20Great%20Cornhole%20Experiment%20%2D%20Learning%2C%20Performance%2C%20and%20Contextual%20Variation,-%E8%BF%99%E4%B8%AA%E8%A7%86%E9%A2%91%E7%94%A8). 因为变化会让你思考更本质的东西，其实也是不要让大脑舒适。
+
+我能想要的一个编程方面的desirable difficulties就是计时编程，需要在5分钟内完成任务。这种困难也是 Desirable Difficulties
