@@ -1,5 +1,5 @@
 ---
-title: 并发中的Rc<T>
+title: 🧀 并发中的Rc<T>
 layout: post
 author: cyven
 tags: rust concurrency rc reference
@@ -11,7 +11,7 @@ categories: CS CS::Lang CS::Lang::Rust
 
 在Sharing a `Mutex<T>` Between Multiple Threads 这一章节中
 
-我们要让10个线程各自对一个值做加1操作，
+## 我们要让10个线程各自对一个值做加1操作
 
 因为涉及到并发，这里用了 `Mutex` 来保护值以及管理并发
 
@@ -44,7 +44,7 @@ fn main() {
 
 那不move的话，这个spawn thread 用的就是reference，这就设计到一个本体还存不存在的问题，因为其他线程可以作恶，让本体嗝屁，然后reference自然就无法用了，所以Rust会阻止这样的行为
 
-那么就想到 Multiple Ownership, `Rc<T>`
+## 那么就想到 Multiple Ownership, `Rc<T>`
 
 用`Rc`去 wrap 一下 `Mutex`，这样可以解决往多个线程里面转移有所有权的变量
 
@@ -131,7 +131,7 @@ error: could not compile `shared-state` due to previous error
 
 那你说，遇到内存不安全的问题，Rust会答应吗？它就是干这个的
 
-不过Rust有另一个 `Arc<T>` 类型，A 就是 atomic 的意思，API都是一样的
+## 不过Rust有另一个 `Arc<T>` 类型，A 就是 atomic 的意思，API都是一样的
 
 ```rust
 use std::sync::{Arc, Mutex};
@@ -162,3 +162,10 @@ fn main() {
 ![2024-05-02-17-41-57-screenshoot.png](../assets/img/2024-05-02-17-41-57-screenshoot.png)
 
 没有问题了
+
+
+## `Arc<T>` 到底是什么内
+
+`Arc<T>`是线程安全版本的`Rc<T>`
+
+因为不像其他语言，其他地方想要用到一个数据，就把数据引用传过去就行，数据都是“共享的”，因为对于堆内存中的数据是最终交给GC或需要自行回收。而Rust中因为有所有权的概念，这个数据只有一个所有者。但Rust其实也有“共享”的概念，就是`Rc<T>` 也就是它是通过代码逻辑，来及时统计当前所有者的个数，目的就是看什么时候可以把这个数据给清除。而在多线程中必然涉及到数据的共享，在其他语言中，可以不用顾及的传来传去，但是在Rust中，所有权系统和生命周期的约束，它需要数据有多个所有者，才能在多个线程之间共享，但是又因为`Rc<T>` 的计数逻辑是代码实现的，而且不是原子操作，所以在多线程环境下会出现问题，而`Arc<T>`就是解决这个问题的。

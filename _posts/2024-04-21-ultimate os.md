@@ -1,5 +1,5 @@
 ---
-title: 【转载】A dream of an ultimate os
+title: ⭐ 【转载】A dream of an ultimate os
 layout: post
 author: cyven
 tags: os linux

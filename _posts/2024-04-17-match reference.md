@@ -1,5 +1,5 @@
 ---
-title: Rust match reference
+title: 🧀 Rust match reference
 layout: post
 author: cyven
 tags: rust match ref reference

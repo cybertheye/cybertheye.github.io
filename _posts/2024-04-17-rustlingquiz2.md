@@ -1,5 +1,5 @@
 ---
-title: Rust rustlings quiz2
+title: 🧩 rustlings quiz
 layout: post
 author: cyven
 tags: rust

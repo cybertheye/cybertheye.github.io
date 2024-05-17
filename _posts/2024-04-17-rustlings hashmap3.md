@@ -1,5 +1,5 @@
 ---
-title: rustlings hashmap3
+title: 🧩 rustlings hashmap
 layout: post
 author: cyven
 tags: rust

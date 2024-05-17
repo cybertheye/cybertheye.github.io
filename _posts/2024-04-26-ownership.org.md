@@ -1,5 +1,5 @@
 ---
-title: 理解所有权
+title: 🚪 理解所有权
 layout: post
 author: cyven
 tags: rust ownership reference stack heap

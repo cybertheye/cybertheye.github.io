@@ -1,5 +1,5 @@
 ---
-title: the value of `&&a`
+title: 🧀 the value of `&&a`
 layout: post
 author: cyven
 tags: rust reference eq

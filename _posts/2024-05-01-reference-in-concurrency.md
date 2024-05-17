@@ -1,5 +1,5 @@
 ---
-title: Rust多线程中的生命周期
+title: 🧀 Rust多线程中的生命周期
 layout: post
 author: cyven
 tags: rust concurrency thread lifetime reference
@@ -50,5 +50,3 @@ fn main() {
 ```
 
 那就会出问题了
-
-

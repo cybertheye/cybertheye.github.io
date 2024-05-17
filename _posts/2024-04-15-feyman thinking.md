@@ -1,5 +1,5 @@
 ---
-title: 如何思考基础问题
+title: 🤔 如何思考基础问题
 layout: post
 author: cyven
 tags: learning-skill how-to
@@ -52,4 +52,3 @@ categories: Metacognition
 非常精彩缜密的思维活动方式
 
 可以看一下原片 [The complete FUN TO IMAGINE with Richard Feynman](https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes)
-

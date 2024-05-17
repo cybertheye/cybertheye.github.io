@@ -1,5 +1,5 @@
 ---
-title: Deref和Deref Coercion
+title: 🧀 Deref和Deref Coercion
 layout: post
 author: cyven
 tags: rust reference String slice deref coercion

@@ -1,5 +1,5 @@
 ---
-title: 笔记无用论
+title: 🤔 笔记无用论
 layout: post
 author: cyven
 tags: methodology

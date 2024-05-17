@@ -1,5 +1,5 @@
 ---
-title: 阅读跨越不可能(1)
+title: 📖 阅读跨越不可能(1)
 layout: post
 author: cyven
 tags: psychology

@@ -1,5 +1,5 @@
 ---
-title: update cancel & archive anki.org
+title: ⭐ update cancel & archive anki.org
 layout: post
 author: cyven
 tags: emacs elisp anki

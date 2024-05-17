@@ -1,5 +1,5 @@
 ---
-title: The core of training purpose
+title: ⭐ The core of training purpose
 layout: post
 author: cyven
 tags: learning-skill psychology

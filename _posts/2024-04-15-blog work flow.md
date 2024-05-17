@@ -1,5 +1,5 @@
 ---
-title: Blog work flow
+title: ⭐ Blog work flow
 layout: post
 author: cyven
 tags: elisp jekyll

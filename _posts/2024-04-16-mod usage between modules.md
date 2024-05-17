@@ -1,5 +1,5 @@
 ---
-title: mod usage between modules
+title: 🧀 mod usage between modules
 layout: post
 author: cyven
 tags: rust
