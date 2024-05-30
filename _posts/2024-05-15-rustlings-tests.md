@@ -1,5 +1,5 @@
 ---
-title: 🧩 tustlings tests
+title: 🧩 rustlings tests
 layout: post
 author: cyven
 tags: rust rustlings test
@@ -61,3 +61,20 @@ unsafe fn modify_by_address(address: usize) {
 ## test6
 
 这里主要涉及到两个函数，一个是 `Box::into_raw` 一个是 `Box::from_raw`
+
+
+
+
+## test7
+
+知识点：
+1. Build Scripts
+2. `cargo::rustc-env=VAR=VALUE — Sets an environment variable.`
+
+
+在 `tests/build.rs`中
+
+```rust
+    let your_command = format!("rustc-env=TEST_FOO={}", timestamp);
+    println!("cargo:{}", your_command);
+```
