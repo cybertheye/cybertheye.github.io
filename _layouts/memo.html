@@ -1,0 +1,26 @@
+---
+layout: page
+---
+<div class="memo-grid">
+  <div class="memo-container">
+    {% for memo in site.memos %}
+      <div class="memo-card">
+        <h3>{{ memo.title }}</h3>
+        <div class="memo-content">
+          {{ memo.excerpt }}
+        </div>
+        <div class="memo-meta">
+          <span class="date">{{ memo.date | date: '%Y-%m-%d' }}</span>
+          {% if memo.tags %}
+            <span class="tags">
+              {% for tag in memo.tags %}
+                #{{ tag }}
+              {% endfor %}
+            </span>
+          {% endif %}
+        </div>
+        <a href="{{ memo.url | relative_url }}" class="read-more">阅读更多</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
