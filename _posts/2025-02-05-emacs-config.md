@@ -27,7 +27,7 @@ Emacs默认的补全是这样的 vertico 的作用,顾名思义,就是把所有�
 
 安装完的效果如下
 
-![2025-02-05-21-24-22-screenshoot.png](../assets/img/2025-02-05-21-24-22-screenshoot.png)
+![2025-02-05-21-24-22-screenshoot.png](../assets/img/2025-02-05-21-39-21-screenshoot.png)
 
 
 # orderless
