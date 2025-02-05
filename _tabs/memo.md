@@ -1,5 +1,5 @@
 ---
 layout: memo
-icon: fas fa-sticky-note
+icon: fa-solid fa-pen
 order: 1
 ---

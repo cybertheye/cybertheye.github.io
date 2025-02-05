@@ -1,0 +1,30 @@
+.memo-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  overflow: auto;
+}
+
+.memo-article {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: var(--card-bg);
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+
+.memo-article hr {
+  border: 0;
+  height: 1px;
+  background: var(--border-color);
+  margin: 2rem 0;
+}
+
+.memo-time {
+    text-align: right;
+}
+
+.memo-content {
+  margin-bottom: 1.5rem;
+}

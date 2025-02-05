@@ -146,8 +146,7 @@ collections:
     output: true
     sort_by: order
   memos:
-    output: true
-    permalink: /memos/:path/
+
 
 defaults:
   - scope:
@@ -174,11 +173,7 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
-  - scope:
-      path: ""
-      type: "memos"
-    values:
-      layout: "memo"
+
 
 sass:
   style: compressed
