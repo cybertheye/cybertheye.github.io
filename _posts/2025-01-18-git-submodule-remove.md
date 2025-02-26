@@ -15,3 +15,5 @@ git submodule 没有 remove 开箱即用的子命令
 1. `git submodule deinit -f path/to/xxx` 这个命令的作用就是会去unregister submodule,`path/to/xxx`下的内容会被情况，然后删除`.git/confg`中关于`path/to/xxx`的信息
 2. `git rm -f path/to/xxx` 如何没有加git，需要手动的执行`git add`和`git commit`来记录操作
 3. `rm -rf .git/modules/path/to/xxx` 手动的去删除这个目录下的子模块
+
+或者使用`magit`,emacs下可以通过 `M-x magit-submodule-remove` 来删除子模块,但是还需要执行上面的第3步.
