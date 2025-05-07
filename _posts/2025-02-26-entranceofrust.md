@@ -250,12 +250,17 @@ edX Smart Contract and dApp Development with Rust /The course will start on June
 学习语言层面的
 
 level 1 定义 - 语法规则，就记住就行，把它当成一个常识，默认的共识 -> anki
+
 level 2 故事 - 有一定的推导，比如特征对象的由来，这一层涉及到演变的过程 -> 笔记，关键点 anki，blog，vlog
+
 level 3 细节 - 业务不常用，但写框架可能用到的知识点，细节，深入追究一些重难点，概念的理解，解剖 -> 笔记，关键点anki，blog，vlog
+
 level 4 设计 - why，为什么这么设计 -> blog,vlog
+
 level 5 想法 - 思考有没有更好的 -> blog,vlog
 
 编程层面的
 
 level 1 实现功能 - ugly没关系，怎么快速实现功能是目的
+
 level 2 结构优化
