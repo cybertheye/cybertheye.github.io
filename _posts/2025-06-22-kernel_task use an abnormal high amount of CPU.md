@@ -1,5 +1,5 @@
 ---
-title: kernel_task use an abnormal high amount of CPU
+title: 🧀 kernel_task use an abnormal high amount of CPU
 layout: post
 author: cyven
 tags: cpu
@@ -25,7 +25,7 @@ categories: CS::Core
 以下是我目前复盘的自检步骤,作为参考,前提是没有开启大型游戏,视频编辑等而莫名其妙的电脑卡顿问题
 
 1. 壁纸是否是动态的,如果是弄成静态的
-2. 检查电脑的散热是否正常,清灰,换硅脂
-3. 是否有外接显示器,如果外接显示器断开是否恢复正常,尤其是 16-inch 19 MacbookPro.
-4. 电满后拔了充电口,是否恢复正常
-5. 最后再考虑[reset NVRAM ](https://support.apple.com/en-us/102539) 和 [reset the SMC](https://support.apple.com/en-us/102605)
+2. 是否有外接显示器,如果有,外界显示器和macbook的显示器显示描述文件选用的模式是否一致,保持一致
+3. 如果外接显示器断开是否恢复正常,尤其是 16-inch 19 MacbookPro.以及电满后拔了充电口,是否恢复正常
+4. 考虑[reset NVRAM ](https://support.apple.com/en-us/102539) 和 [reset the SMC](https://support.apple.com/en-us/102605)
+5. 检查电脑的散热是否正常,清灰,换硅脂
