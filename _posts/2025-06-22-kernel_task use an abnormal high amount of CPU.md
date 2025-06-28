@@ -1,5 +1,5 @@
 ---
-title: 🧀 kernel_task use an abnormal high amount of CPU
+title: 🧀kernel_task use an abnormal high amount of CPU
 layout: post
 author: cyven
 tags: cpu
