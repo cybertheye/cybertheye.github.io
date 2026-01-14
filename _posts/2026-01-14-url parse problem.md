@@ -19,6 +19,8 @@ categories: CS CS::Tech
 对于这个页面中的 html
 
 img 标签
+{% raw %}
 1. `<img src="ox-hugo/xxx.png">` 寻找的是 `www.cybertheye.com/braindump/posts/ox-hugo/xxx.png`
 2. `<img src="/ox-hugo/xxx.png">` 寻找的是 `www.cybertheye.com/ox-hugo/xxx.png`
 3. `<img src="../ox-hugo/xxx.png">` 寻找的是 `www.cybertheye.com/braindump/ox-hugo/xxx.png`
+{% endraw %}

@@ -89,6 +89,7 @@ ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开
 ## 解决方法: override figure.html
 
 > [Figure shortcode](https://gohugo.io/shortcodes/figure/#article)
+
 {% raw %}
 ```
   {{- $u := urls.Parse (.Get "src") -}}
