@@ -63,7 +63,7 @@ Github Pages其实可以部署三种, personal page,organization page, project p
 
 ## 问题的命门
 
-[资源路径解析]({% post_url 2026-01-14-url parse problem.md %})
+[资源路径解析]({% post_url 2026-01-14-url parse problem %})
 
 ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开始解析的,
 一般情况下,根域名其实就是对应的根目录,
