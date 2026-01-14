@@ -1,5 +1,5 @@
 ---
-title: Emacs 搜索与批量编辑：彻底搞懂 Occur-mode 与 Grep-mode 的区别
+title: 🌳Emacs 搜索与批量编辑：彻底搞懂 Occur-mode 与 Grep-mode 的区别
 layout: post
 author: cyven
 tags: emacs wgrep ripgrep productivity
@@ -7,7 +7,7 @@ categories: CS CS::Tech
 ---
 
 
-
+> 本文由Gemini生成
 
 在 Emacs 中，`consult` + `embark` + `wgrep` 的组合被誉为“搜索与重构的神器”。但很多开发者在初学时都会遇到一个坑：**为什么我导出的搜索结果 Buffer 是只读的？为什么 `wgrep` 报错说模式不对？**
 

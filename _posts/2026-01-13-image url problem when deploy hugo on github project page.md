@@ -28,8 +28,9 @@ Github Pages其实可以部署三种, personal page,organization page, project p
 
 在 github workflow 中
 
-{% raw %}
+
 ```shell
+{% raw %}
   - name: Build the site
         run: |
           hugo \
@@ -37,8 +38,9 @@ Github Pages其实可以部署三种, personal page,organization page, project p
             --minify \
             --baseURL "https://www.cybertheye.com/braindump/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
-```
 {% endraw %}
+```
+
 
 我已经把`baseURL`配置成带有 `/braindump/`,此时,我可以正常访问到posts了,
 
@@ -86,8 +88,10 @@ ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开
 
 > [Figure shortcode](https://gohugo.io/shortcodes/figure/#article)
 
-{% raw %}
+
+
 ```go
+{% raw %}
   {{- $u := urls.Parse (.Get "src") -}}
   {{- $src := $u.String -}}
   {{- if not $u.IsAbs -}}
@@ -97,8 +101,9 @@ ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开
   {{- end -}}
 
   <img src="{{ $src }}"
-```
 {% endraw %}
+```
+
 
 这是默认的hugo把figure生成 img 标签的模板.
 可以看到这里的 src 直接就是 `{{$src}}` 即使看不懂前面的语法,我们可以猜测,这就是
