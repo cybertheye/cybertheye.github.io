@@ -7,7 +7,7 @@ categories: CS CS::Tech
 ---
 
 
-## <img src="ox-hugo/xxx.png"> 这个路径是相对路径是吗？是相对谁？
+## `<img src="ox-hugo/xxx.png">` 这个路径是相对路径是吗？是相对谁？
 
 只要不是 `src="www.xxx.com/xxx"`的都是相对路径
 
