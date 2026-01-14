@@ -1,18 +1,18 @@
 ---
-title: how to deep into programming language design
+title: 🌳how to deep into programming language design
 layout: post
 author: cyven
 tags: philosophy practice
 categories: CS CS::Lang
 ---
 
-
+*Google AI 整理*
 
 深入理解一门语言的“设计哲学”与“代价”，是把你从“代码裁缝”转变为“技术决策者”的关键。设计哲学决定了语言的**基因**，而代价则是为了维持这个基因必须付出的**税收**。
 
 以下是针对这一阶段的**五个高强度刻意练习方法**：
 
----
+
 
 ### 练习一：构建“因果链条”模型 (The Why-How-Cost Chain)
 
