@@ -42,14 +42,26 @@ Github Pages其实可以部署三种, personal page,organization page, project p
 
 但是posts中如果有图片,显示不出来.
 
-我打开网页浏览器的 inspector, 最后生成的html页面是 `<img src="/ox-hugo/xxx.png">`,
-其实只要改成 `<img src="/braindump/ox-hugo/xxx.png>`就能显示图片。
+我打开网页浏览器的 inspector, 最后生成的html页面是
+
+`<img src="/ox-hugo/xxx.png">`,
+
+其实只要改成
+
+`<img src="/braindump/ox-hugo/xxx.png>`
+
+就能显示图片。
 
 ## 分析的过程
 
 因为我已经设置了 baseURL, 但是img的url没有加上 `braindump`,
 
-我查看了带图片的 md 文件, 图片格式是 `{{< figure src="/ox-hugo/xxxx.png" >}}`
+我查看了带图片的 md 文件, 图片格式是
+
+{% raw %}
+`{{< figure src="/ox-hugo/xxxx.png" >}}`
+{% endraw %}
+
 这里我一开始一直没有注意到 `/ox-hugo`的这个 `/`
 
 我一直怀疑是 hugo或github page哪里配置不对,也许workflow需要再加上什么命令行参数
@@ -77,7 +89,7 @@ ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开
 ## 解决方法: override figure.html
 
 > [Figure shortcode](https://gohugo.io/shortcodes/figure/#article)
-
+{% raw %}
 ```
   {{- $u := urls.Parse (.Get "src") -}}
   {{- $src := $u.String -}}
@@ -89,15 +101,21 @@ ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开
 
   <img src="{{ $src }}"
 ```
+{% endraw %}
+
 这是默认的hugo把figure生成 img 标签的模板.
-可以看到这里的 src 直接就是 `{{$src}}` 即使看不懂前面的语法,我们可以猜测,这就是 `{{< figure src="/ox-hugo/xxxx.png" >}}` 的src部分
+可以看到这里的 src 直接就是 `{{$src}}` 即使看不懂前面的语法,我们可以猜测,这就是
+{% raw %}
+`{{< figure src="/ox-hugo/xxxx.png" >}}`
+{% endraw %}
+的src部分
 
 我们的目标是要 src变成 `/braindump/ox-hugo/xxx.png`这样的形式
 
 1. 使用 hugo的模板语法,把`/braindump`加到 `$src`前面去
    这个可以使用 [urls.JoinPath方法](https://gohugo.io/functions/urls/joinpath/)
 
-2. 先去除原来 `$src`的前缀 `/`,然后 `<img src="{{ $src | relURL }}"`,
+2. 先去除原来 `$src`的前缀 `/`,然后 img标签中 `src="{{ $src | relURL }}"`,
    relURL会生成相对`baseURL`的相对路径也就是 `/braindump/ox-hugo/xxx.png`了
 
 > [relURL](https://gohugo.io/functions/urls/relurl/)
