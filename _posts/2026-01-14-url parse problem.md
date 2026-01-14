@@ -6,6 +6,7 @@ tags: url path
 categories: CS CS::Tech
 ---
 
+[belong]({% post_url 2026-01-13-image url problem when deploy hugo on github project page %})
 
 ## `<img src="ox-hugo/xxx.png">` 这个路径是相对路径是吗？是相对谁？
 
@@ -19,8 +20,7 @@ categories: CS CS::Tech
 对于这个页面中的 html
 
 img 标签
-{% raw %}
+
 1. `<img src="ox-hugo/xxx.png">` 寻找的是 `www.cybertheye.com/braindump/posts/ox-hugo/xxx.png`
 2. `<img src="/ox-hugo/xxx.png">` 寻找的是 `www.cybertheye.com/ox-hugo/xxx.png`
 3. `<img src="../ox-hugo/xxx.png">` 寻找的是 `www.cybertheye.com/braindump/ox-hugo/xxx.png`
-{% endraw %}

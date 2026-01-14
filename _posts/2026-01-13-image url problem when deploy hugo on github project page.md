@@ -28,7 +28,8 @@ Github Pages其实可以部署三种, personal page,organization page, project p
 
 在 github workflow 中
 
-```
+{% raw %}
+```shell
   - name: Build the site
         run: |
           hugo \
@@ -37,19 +38,14 @@ Github Pages其实可以部署三种, personal page,organization page, project p
             --baseURL "https://www.cybertheye.com/braindump/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
 ```
+{% endraw %}
 
 我已经把`baseURL`配置成带有 `/braindump/`,此时,我可以正常访问到posts了,
 
 但是posts中如果有图片,显示不出来.
 
-我打开网页浏览器的 inspector, 最后生成的html页面是
-
-`<img src="/ox-hugo/xxx.png">`,
-
-其实只要改成
-
-`<img src="/braindump/ox-hugo/xxx.png>`
-
+我打开网页浏览器的 inspector, 最后生成的html页面是`<img src="/ox-hugo/xxx.png">`,
+其实只要改成`<img src="/braindump/ox-hugo/xxx.png>`
 就能显示图片。
 
 ## 分析的过程
@@ -91,7 +87,7 @@ ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开
 > [Figure shortcode](https://gohugo.io/shortcodes/figure/#article)
 
 {% raw %}
-```
+```go
   {{- $u := urls.Parse (.Get "src") -}}
   {{- $src := $u.String -}}
   {{- if not $u.IsAbs -}}
@@ -116,7 +112,7 @@ ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开
 1. 使用 hugo的模板语法,把`/braindump`加到 `$src`前面去
    这个可以使用 [urls.JoinPath方法](https://gohugo.io/functions/urls/joinpath/)
 
-2. 先去除原来 `$src`的前缀 `/`,然后 img标签中 `src="{{ $src | relURL }}"`,
+2. 先去除原来 `$src`的前缀 `/`,然后 img标签中 {% raw %}`src="{{ $src | relURL }}"`{% endraw %},
    relURL会生成相对`baseURL`的相对路径也就是 `/braindump/ox-hugo/xxx.png`了
 
 > [relURL](https://gohugo.io/functions/urls/relurl/)
