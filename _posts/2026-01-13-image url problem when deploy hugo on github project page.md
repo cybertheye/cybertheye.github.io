@@ -84,7 +84,7 @@ ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开
 因为我这里是使用 hugo 的 figure shortcode, 那么hugo是怎么从figure生成html的img,
 这就是我们的解决切入点!
 
-## 解决方法: override figure.html
+## 解决方法
 
 > [Figure shortcode](https://gohugo.io/shortcodes/figure/#article)
 
@@ -119,8 +119,7 @@ ox-hugo 导出的图片路径,是 `/`开头的,那就说明它是从根域名开
 
 2. 先去除原来 `$src`的前缀 `/`,然后 img标签中 {% raw %}`src="{{ $src | relURL }}"`{% endraw %},
    relURL会生成相对`baseURL`的相对路径也就是 `/braindump/ox-hugo/xxx.png`了
-
-> [relURL](https://gohugo.io/functions/urls/relurl/)
+   参考[relURL](https://gohugo.io/functions/urls/relurl/)
 
 3. 在 hugo.toml 中设置 `"canonifyURLs=true"`,但是这种方式不再建议,后续版本可能会移除
    参考[Canonical URLs](https://gohugo.io/content-management/urls/#canonical-urls)

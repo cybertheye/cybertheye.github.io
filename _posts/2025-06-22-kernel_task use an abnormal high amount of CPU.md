@@ -3,7 +3,7 @@ title: 🧀 kernel_task use an abnormal high amount of CPU
 layout: post
 author: cyven
 tags: cpu
-categories: CS::Core
+categories: CS CS::Core
 ---
 
 
