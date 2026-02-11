@@ -9,7 +9,7 @@ categories: CS CS::Tech
 
 ## 插件
 
-- multiple-cursors ([牛逼的操作](http://emacsrocks.com/e13.html))
+- multiple-cursors ([牛逼的操作](https://emacsrocks.com/e13.html))
 - region-binding-mode
 - expand-region (更通用)
 - combobulate (支持语言有限,但是使用的是treesiter)
