@@ -6,6 +6,9 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
+- type: x
+  icon: "fa-brands fa-x-twitter"
+
 - type: weibo
   icon: "fa-brands fa-weibo"
 

@@ -28,14 +28,17 @@ url: https://cybertheye.github.io
 github:
   username: cybertheye # change to your github username
 
-weibo:
-  username: u/1779843054
+#weibo:
+#  username: u/1779843054
+
+x:
+  username: cybertheye
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Cyven Chaney
-  email: cybertheye@yeah.net # change to your email address
+  email: cybertheye@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     #- https://twitter.com/username # change to your twitter homepage
