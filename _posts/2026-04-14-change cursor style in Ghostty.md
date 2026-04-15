@@ -6,18 +6,18 @@ tags: ghostty setting starship shell
 categories: CS CS::Tech
 ---
 
-# problem
+## problem
 在使用 Ghostty 的时候,会发现通过 Ghostty 的配置`cursor-style = bar`来改变光标样式,它不生效
 
-# how to fix
+## how to fix
 
 增加一个配置 ` shell-integration-features = no-cursor` ,就可以了
 
-# why
+## why
 官方文档中写到
 > Note that shell integration will automatically set the cursor to a bar at a prompt, regardless of this configuration.
 
-## 什么是 shell integration - by Gemini-3-pro
+### 什么是 shell integration - by Gemini-3-pro
 
 在以前，终端（比如系统自带的 Terminal.app）非常“笨”，它只负责两件事：
 
@@ -33,7 +33,7 @@ Shell 会悄悄发送类似这样的暗号给终端：
 - [OSC 133 B]：“画完了，现在等待用户敲键盘输入。”
 - [OSC 133 C]：“用户敲回车了，我要开始执行命令了！”
 
-## Ghostty的自作主张 - by Gemini-3-pro
+### Ghostty的自作主张 - by Gemini-3-pro
 
 既然 Ghostty 知道你什么时候在看提示符，什么时候在敲命令，它为了提供所谓的“最佳体验”，内置了一些联动特效（Features）：
 
@@ -45,7 +45,7 @@ Shell 会悄悄发送类似这样的暗号给终端：
 
 这就是为什么无论你怎么配，Ghostty 都会在最后一刻把你的下划线重置成竖线的原因。
 
-## shell-integration-features = no-cursor 的真正含义 - by Gemini-3-pro
+### shell-integration-features = no-cursor 的真正含义 - by Gemini-3-pro
 
 shell-integration-features 是 Ghostty 提供的一个配置开关，允许你保留 Shell 集成带来的好处（比如智能目录追踪），但单独关闭某些你不喜欢的“特效”。
 
@@ -65,7 +65,7 @@ Ghostty 放弃重置光标的动作。
 
 
 
-# process
+## process
 
 因为一开始我在配置 starship, 我一直以为是 starship 的原因,而且starship刚好也是负责 prompt这块的渲染,
 所以我引导 Gemini 的方向是错误的,而且回答也很合理因为指令覆盖
@@ -91,7 +91,7 @@ Ghostty 放弃重置光标的动作。
 
 *但其实这些解决方案都是脱裤子放屁,多此一举*
 
-## zsh下,在 .zshrc 末尾
+#n## zsh下,在 .zshrc 末尾
 
 ```
 # 定义一个强制设置下划线的函数
@@ -122,7 +122,7 @@ add-zsh-hook precmd _force_underline
 ```
 
 
-## fish
+### fish
 
 配置文件中加
 
@@ -138,7 +138,7 @@ set -g fish_cursor_visual underline
 
 
 
-# lesson
+## lesson
 
 到fish 这里,我突然意识到, `fish_vi_cursor`的性能问题
 因为毫无疑问,它做了额外的事情,虽然可能在实际体验中,这个微不足道
@@ -152,6 +152,6 @@ set -g fish_cursor_visual underline
 
 所以
 
-1. 永远问自己,这是问题的根源吗?
+1. 永远问自己,这是问题的根源吗? 也就是实验是独立变量吗?
 2. 提问AI的方式,决定了它给出的解决方案,最终导致他用了绕路子的方法来解决问题,
 3. 关注性能问题
