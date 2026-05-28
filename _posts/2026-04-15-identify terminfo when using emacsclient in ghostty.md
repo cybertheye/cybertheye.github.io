@@ -1,5 +1,5 @@
 ---
-title: identify terminfo when using emacsclient in ghostty
+title: 🌳identify terminfo when using emacsclient in ghostty
 layout: post
 author: cyven
 tags:
