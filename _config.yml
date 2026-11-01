@@ -16,7 +16,10 @@ timezone: Asia/Shanghai
 
 title: Cyven Chaney # the main title
 
-tagline: 不长草黑客与画家 \n Out Of Box \n 大任加身 德才足堪 \n 不以所得 妄证所能
+tagline: 不长草黑客与画家 \
+         Out Of Box \
+         大任加身 德才足堪 \
+         不以所得 妄证所能
 
 description: >- # used by seo meta and the atom feed
   Sharing Rust,Java,Python and other programming language usage
